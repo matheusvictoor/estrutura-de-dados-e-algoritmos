@@ -4,15 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c63ae04-695e-47b9-a841-df107f7839d2" name="Changes" comment="Configura o git">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="5c63ae04-695e-47b9-a841-df107f7839d2" name="Changes" comment="Adicona a classe Warm_up">
+      <change afterPath="$PROJECT_DIR$/src/Troca_vizinhos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vetor_circular.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Warm_up.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Warm_up.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Warm_up.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,7 +51,21 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Vetor_circular">
+    <configuration name="Troca_vizinhos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Troca_vizinhos" />
+      <module name="estrutura-de-dados-e-algoritmos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Vetor_circular" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Vetor_circular" />
+      <module name="estrutura-de-dados-e-algoritmos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Warm_up" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Warm_up" />
       <module name="estrutura-de-dados-e-algoritmos" />
@@ -66,6 +88,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Vetor_circular" />
+        <item itemvalue="Application.Troca_vizinhos" />
         <item itemvalue="Application.Warm_up" />
       </list>
     </recent_temporary>
@@ -96,5 +120,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adicona a classe Warm_up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicona a classe Warm_up" />
   </component>
 </project>
