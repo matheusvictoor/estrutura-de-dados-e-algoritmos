@@ -1,3 +1,4 @@
+package com.eda.tst;
 
 import java.util.Scanner;
 

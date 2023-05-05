@@ -1,3 +1,5 @@
+package com.eda.tst;
+
 import java.util.Scanner;
 
 // Escreva um programa que leia um número inteiro N e uma sequência de inteiros e multiplique cada elemento dessa sequência por N.
