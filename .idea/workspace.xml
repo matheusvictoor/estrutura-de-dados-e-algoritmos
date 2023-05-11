@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c63ae04-695e-47b9-a841-df107f7839d2" name="Changes" comment="Adicona a questão Imprimir vetor circular">
-      <change afterPath="$PROJECT_DIR$/src/com/eda/lista/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/eda/lista/LinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/estrutura-de-dados-e-algoritmos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/estrutura-de-dados-e-algoritmos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eda/lista/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eda/lista/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -39,6 +40,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -47,7 +52,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/mathe/Documents/2-conceitos-de-programacao/GitHub/estrutura-de-dados-e-algoritmos",
+    "last_opened_file_path": "P:/Conceitos de Programação/GitHub/psoft/projeto-psoft-grupo10",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,26 +76,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.eda.lista" />
       <recent name="com.eda.vetor" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.eda.vetor.teste" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Aula5">
-    <configuration name="Aula2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eda.vetor.teste.Aula2" />
-      <module name="estrutura-de-dados-e-algoritmos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.eda.vetor.teste.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LinkedListTest.testContains">
     <configuration name="Aula3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eda.vetor.teste.Aula3" />
       <module name="estrutura-de-dados-e-algoritmos" />
@@ -130,16 +123,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Elementos_duplicados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tst.eda.Elementos_duplicados" />
+    <configuration name="Solution" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="estrutura-de-dados-e-algoritmos" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Solution" />
+    <configuration name="LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="estrutura-de-dados-e-algoritmos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eda.lista.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eda.lista" />
+      <option name="MAIN_CLASS_NAME" value="com.eda.lista.LinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.testContains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="estrutura-de-dados-e-algoritmos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eda.lista.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eda.lista" />
+      <option name="MAIN_CLASS_NAME" value="com.eda.lista.LinkedListTest" />
+      <option name="METHOD_NAME" value="testContains" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,19 +176,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Aula2" />
       <item itemvalue="Application.Aula3" />
       <item itemvalue="Application.Aula4" />
       <item itemvalue="Application.Aula5" />
-      <item itemvalue="Application.Elementos_duplicados" />
+      <item itemvalue="JUnit.LinkedListTest" />
+      <item itemvalue="JUnit.LinkedListTest.testContains" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LinkedListTest.testContains" />
+        <item itemvalue="JUnit.LinkedListTest" />
         <item itemvalue="Application.Aula5" />
         <item itemvalue="Application.Aula4" />
         <item itemvalue="Application.Aula3" />
-        <item itemvalue="Application.Aula2" />
-        <item itemvalue="Application.Elementos_duplicados" />
       </list>
     </recent_temporary>
   </component>
@@ -193,6 +210,7 @@
       <workItem from="1680887016550" duration="161000" />
       <workItem from="1682537671612" duration="4443000" />
       <workItem from="1682721696544" duration="962000" />
+      <workItem from="1683328723575" duration="5008000" />
     </task>
     <servers />
   </component>

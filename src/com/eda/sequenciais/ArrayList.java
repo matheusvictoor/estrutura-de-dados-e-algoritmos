@@ -1,19 +1,17 @@
-package com.eda.lista;
-
-import java.util.Arrays;
+package com.eda.sequenciais;
 
 import com.eda.base.EstruturaEstatica;
 
-public class Lista<T> extends EstruturaEstatica<T> {
+public class ArrayList<T> extends EstruturaEstatica<T> {
 
     private T[] elementos;
     private  int tamanho;
     
-    public Lista() {
+    public ArrayList() {
     	super();
     }
 
-    public Lista(int capacidade){
+    public ArrayList(int capacidade){
        super(capacidade);
     }
   
