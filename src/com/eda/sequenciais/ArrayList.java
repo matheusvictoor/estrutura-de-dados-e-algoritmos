@@ -14,7 +14,7 @@ public class ArrayList<T> {
         this.size = 0;
     }
 
-    public boolean isEmpity(){
+    public boolean isEmpty(){
         return size == 0;
     }
 
@@ -38,7 +38,7 @@ public class ArrayList<T> {
     }
 
     public void set(int index, T element){
-        if (index < 0 || index > size)
+        if (index < 0 || index >= size)
             throw new IndexOutOfBoundsException();
         elements[index] = element;
     }
@@ -111,7 +111,7 @@ public class ArrayList<T> {
     }
 
     public String toString(){
-        if (isEmpity()) return "[]";
+        if (isEmpty()) return "[]";
 
         StringBuilder s = new StringBuilder();
 
